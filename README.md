@@ -1,2 +1,2 @@
 # ReactStarter
- React project based of Tania Rascia's webiste.
+ React project based of Tania Rascia's website.
