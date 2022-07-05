@@ -1,6 +1,7 @@
 import React from "react";
 import Table from "./Table";
 import Form from "./Form";
+import Api from "./Api";
 
 class App extends React.Component {
   state = {
@@ -25,6 +26,7 @@ class App extends React.Component {
     const { characters } = this.state;
     return (
       <div className="container">
+        <Api />
         <Table
           characterData={characters}
           removeCharacter={this.removeCharacter} /*passar a func removeCharacter como prop para a table. Pk foi def no App, classe Mae*/
